@@ -3,11 +3,12 @@
   "version": "0.3.0",
   "description": "A sample Node.js app using Express 4",
   "engines": {
-    "node": "16.x"
+    "node": "14.x"
   },
   "main": "http_server.js",
   "scripts": {
-    "start": "node index.js",
+    "build": "npm install",
+    "start": "node http_server.js",
     "test": "node test.js"
   },
   "dependencies": {
@@ -36,4 +37,6 @@
   },
   "homepage": "https://selfranksample.herokuapp.com/",
   "author": "sibarra-scurr"
+
+  
 }
